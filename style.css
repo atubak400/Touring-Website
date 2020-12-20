@@ -397,6 +397,13 @@ Featured Tours
 .tour-info {
   padding: 1.25rem 1.5rem;
 }
+
+.tour-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .tour-footer {
   display: flex;
   justify-content: space-between;
