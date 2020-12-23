@@ -325,7 +325,9 @@ Hero
 */
 .hero {
     min-height: 100vh;
-    background: var(--clr-primary-5);
+    /* background: var(--clr-primary-5); */
+    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../images/8.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -517,7 +519,8 @@ Featured Tours
 
 .tour-img {
     height: 15rem;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .tour-date {
@@ -627,6 +630,22 @@ Contact
     border: transparent;
 }
 
+.form-control::-webkit-input-placeholder {
+    color: inherit;
+}
+
+.form-control::-moz-placeholder {
+    color: inherit;
+}
+
+.form-control:-ms-input-placeholder {
+    color: inherit;
+}
+
+.form-control::-ms-input-placeholder {
+    color: inherit;
+}
+
 .form-control::placeholder {
     color: inherit;
 }
@@ -684,7 +703,8 @@ Gallery
 
 .gallery-img {
     height: 17rem;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     transition: var(--transition);
 }
 
